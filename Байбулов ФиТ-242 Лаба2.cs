@@ -43,26 +43,21 @@ class laba2
         */
 
         /*zad3
-        int c = 0, n, max = 0, k;
-        n = Convert.ToInt32(Console.ReadLine());
-        for (int i = 0; i < n; i++)
+        int num = Convert.ToInt32(Console.ReadLine());
+        int k = 0;
+        int a = Convert.ToInt32(Console.ReadLine());
+        int b = Convert.ToInt32(Console.ReadLine());
+        for (int i = 2; i < num; i++)
         {
-            k = Convert.ToInt32(Console.ReadLine());
-            if (k % 2 == 0)
+            int c = Convert.ToInt32(Console.ReadLine());
+            if (b < a && b < c)
             {
-                c += k;
-                if (c > max)
-                {
-                    max = c;
-
-                }
+                k++;
             }
-            else
-            {
-                c = 0;
-            }
+            a = b;
+            b = c;
         }
-        Console.WriteLine(max);
+        Console.WriteLine(k);
         */
 
     }
