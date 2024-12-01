@@ -17,7 +17,7 @@ class laba5
         int k3 = 0;
         for (int i = 0; i < n; i++)
         {
-            if (array[i] % 10 == 3) k3++;
+            if (Math.Abs(array[i]) % 10 == 3) k3++;
         }
         Console.WriteLine("Количество элементов оканчивающихся на тройку равно " + k3);
     }
