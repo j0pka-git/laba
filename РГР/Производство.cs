@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Proizvodstvo
+class World
 {
     public static bool IsLeapYear(int year)
     {
