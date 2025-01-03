@@ -7,10 +7,10 @@ class World
         if (n < 3 || n == 4) return 0;
         if (n == 3) return 1;
 
-        int group1 = n / 2;
-        int group2 = n - group1;
+        int g1 = n / 2;
+        int g2 = n - g1;
 
-        return Group_Counter(group1) + Group_Counter(group2);
+        return Group_Counter(g1) + Group_Counter(g2);
     }
 
     static void Main()
