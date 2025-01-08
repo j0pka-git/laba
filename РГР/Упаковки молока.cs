@@ -31,11 +31,12 @@ class World
             int s1 = 2 * (x1 * y1 + x1 * z1 + y1 * z1);
             int s2 = 2 * (x2 * y2 + x2 * z2 + y2 * z2);
 
-            double current = ((c2 * s1 - c1 * s2) / (v2 * s1 - v1 * s2)) * 1000;
+            double per; 
+            per = 1000*((c2 * s1 - c1 * s2) / (v2 * s1 - v1 * s2));
 
-            if (current < minCost)
+            if (per < minCost)
             {
-                minCost = current;
+                minCost = per;
                 firm = i;
 
             }
