@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
-
-class SuperHorse
+class World
 {
     static readonly int[] horseX = { 2, 1, -1, -2, -2, -1, 1, 2 };
     static readonly int[] horseY = { 1, 2, 2, 1, -1, -2, -2, -1 };
