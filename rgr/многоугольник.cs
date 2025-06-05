@@ -1,6 +1,5 @@
 using System;
-
-class HullArea
+class World
 {
     static void Main()
     {
