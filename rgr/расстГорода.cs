@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class World
 {
     static double ToRadians(double degrees)
     {
