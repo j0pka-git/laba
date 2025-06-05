@@ -1,5 +1,4 @@
 using System;
-
 class World
 {
     static double ToRadians(double degrees)
